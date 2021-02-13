@@ -1,0 +1,21 @@
+- tasks:
+    - name: create EC2 test instance 1
+      import_role:
+        name: liveproject-ansible-role-ec2
+      vars:
+        state: 'present'
+        name: 'managed-1'
+    
+    - name: create EC2 test instance 2
+      import_role:
+        name: liveproject-ansible-role-ec2
+      vars:
+        state: 'present'
+        name: 'managed-2'
+
+    - name: create EC2 test instance 2
+      import_role:
+        name: liveproject-ansible-role-ec2
+      vars:
+        state: 'present'
+        name: 'managed-2'

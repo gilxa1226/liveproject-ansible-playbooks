@@ -1,0 +1,4 @@
+- hosts: aws-hosts
+  tasks:
+    - name: ping EC2 test instances
+      ansible.builtin.ping:
