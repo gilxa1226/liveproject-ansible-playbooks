@@ -9,9 +9,9 @@
     count: 1
     vpc_subnet_id: subnet-02b8f75f9cedc6335
     assign_public_ip: yes
-    state: {{ state }}
+    state: "{{ state }}"
     instance_tags:
-      name: {{ name }}
+      name: "{{ name }}"
       cluster: 'none'
       creator: 'ansible'
       environment: 'dev'
