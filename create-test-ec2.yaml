@@ -1,4 +1,5 @@
-- tasks:
+- hosts: localhost
+  tasks:
     - name: create EC2 test instance 1
       import_role:
         name: liveproject-ansible-role-ec2
