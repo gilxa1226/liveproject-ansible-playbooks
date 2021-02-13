@@ -1,2 +1,5 @@
 # From github
 #- src: https://github.com/gilxa1226/liveproject-ansible-role-ec2
+
+# aws galaxy role
+- amazon.aws
