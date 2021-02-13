@@ -1,22 +1,7 @@
+---
+# This playbook uses Ansible role `liveproject-ansible-role-ec2`
 - hosts: localhost
-  tasks:
-    - name: create EC2 test instance 1
-      import_role:
-        name: liveproject-ansible-role-ec2
+  roles:
+    - role: liveproject-ansible-role-ec2
       vars:
-        state: 'absent'
-        name: 'managed-1'
-    
-    - name: create EC2 test instance 2
-      import_role:
-        name: liveproject-ansible-role-ec2
-      vars:
-        state: 'absent'
-        name: 'managed-2'
-
-    - name: create EC2 test instance 2
-      import_role:
-        name: liveproject-ansible-role-ec2
-      vars:
-        state: 'absent'
-        name: 'managed-2'
+        mode: "terminate"
