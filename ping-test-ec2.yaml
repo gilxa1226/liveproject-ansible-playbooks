@@ -1,4 +1,4 @@
-- hosts: aws-inventory
+- hosts: aws_ec2
   tasks:
     - name: ping EC2 test instances
       ansible.builtin.ping:
