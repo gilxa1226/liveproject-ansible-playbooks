@@ -1,4 +1,4 @@
 ---
-- hosts: awx-host
+- hosts: localhost
   roles:
     - liveproject-ansible-role-awx-config
