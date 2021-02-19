@@ -4,3 +4,5 @@
 roles:
   - name: liveproject-ansible-role-ec2
     src: git+git@github.com:gilxa1226/liveproject-ansible-role-ec2.git
+  - name: liveproject-ansible-role-awx-config
+    src: git@github.com:gilxa1226/liveproject-ansible-role-awx-config.git

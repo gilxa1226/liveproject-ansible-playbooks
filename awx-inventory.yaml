@@ -1,0 +1,6 @@
+---
+plugin: awx.awx.tower
+host: localhost
+username: 
+password:
+
