@@ -1,0 +1,7 @@
+---
+- hosts: aws_api
+  name: Create an empty bucket
+  aws_s3:
+    bucket: openscap-data
+    mode: create
+    permission: private
