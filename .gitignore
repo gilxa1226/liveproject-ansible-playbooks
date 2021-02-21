@@ -1,2 +1,3 @@
 roles/liveproject-ansible-role-awx-config
 roles/liveproject-ansible-role-ec2
+roles/liveproject-ansible-role-openscap

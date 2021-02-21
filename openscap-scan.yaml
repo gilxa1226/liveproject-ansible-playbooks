@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  roles:
+    - liveproject-ansible-role-openscap
+
+      
