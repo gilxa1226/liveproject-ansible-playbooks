@@ -1,5 +1,5 @@
 ---
-- hosts: aws_api
+- hosts: localhost
   tasks:
     name: Create an empty bucket
     aws_s3:
